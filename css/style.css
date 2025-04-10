@@ -71,7 +71,7 @@ header {
 }
 
 .section2-box {
-  background-color: #e5e5e5; /* light gray */
+  background-color: #e5e5e5; 
   display: inline-block;
   padding: 1.5rem 2rem;
   border-radius: 10px;
@@ -104,9 +104,10 @@ section h3{
 
 
 .section3 {
-  background-color: #f5f7fa;
+  background-color: #e5e5e5;
   padding: 1rem;
   text-align: center;
+  border-radius: 10px;
 }
 
 .section3-grid {
@@ -145,6 +146,31 @@ section h3{
   line-height: 24px;
 }
 
+.section3-box{
+  background-color: #e5e5e5; 
+  display: inline-block;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  line-height: 35px;
+}
+.section3-box button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.section3-box button:hover {
+  background-color: #1e4eb0;
+}
+
+
 footer {
   background-color: #222;
   color: white;
@@ -154,3 +180,4 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
